@@ -1,13 +1,10 @@
-import React from "react";
-import SignInPage from "./login/sign-in";
-
-const IndexPage = () => {
+// pages/index.tsx
+export default function Home() {
   return (
-    <div className="container mx-auto">
-      {" "}
-      <SignInPage />
-    </div>
+    <main className="flex min-h-screen items-center justify-center">
+      <h1 className="text-2xl font-semibold text-gray-700">
+        Welcome to your new Next.js + Tailwind CSS project!
+      </h1>
+    </main>
   );
-};
-
-export default IndexPage;
+}
